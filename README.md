@@ -32,3 +32,9 @@ RRB
 RRR
 RRR
 ```
+
+# Optional Verification
+To let the system verify a solution by manually testing each of the moves given in output.txt (was useful when testing the program, but can act as a sanity check), run the following and check the terminal
+```bash
+mvn exec:java -Dexec.mainClass="rubikscubesolver.VerifySolution" -Dexec.args="scrambles/scramble01.txt scrambles/output.txt"
+```
