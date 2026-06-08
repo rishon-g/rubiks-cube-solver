@@ -1,4 +1,4 @@
-package org.example;
+package rubikscubesolver;
 
 import java.io.*;
 import java.util.*;

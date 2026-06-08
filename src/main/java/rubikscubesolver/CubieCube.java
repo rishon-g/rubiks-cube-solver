@@ -1,4 +1,4 @@
-package org.example;
+package rubikscubesolver;
 
 /**
  * Core cubie-level representation of the cube.
